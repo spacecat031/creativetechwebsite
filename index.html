@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Creative Tech</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #1e1e1e;
+      color: #f0f0f0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #2b2b2b;
+      padding: 1.5rem;
+      font-size: 2rem;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      color: white;
+    }
+
+    section {
+      padding: 4rem 1rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .button {
+      background: #5b5bff;
+      color: white;
+      border: none;
+      border-radius: 12px;
+      padding: 1rem 2.5rem;
+      font-size: 1.2rem;
+      margin: 1.5rem auto;
+      display: inline-block;
+      text-decoration: none;
+    }
+
+    .products-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+
+    .product-card {
+      background-color: #2d2d2d;
+      border-radius: 12px;
+      padding: 2rem 1rem;
+      width: 280px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+    }
+
+    .product-card strong {
+      display: block;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .product-card a {
+      display: inline-block;
+      color: #4ea8ff;
+      margin-top: 1rem;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+     <img src="LOGO.png" alt="Logo">
+  </header>
+
+  <section>
+    <h1>Welcome to Creative Tech's official website!</h1>
+    <a href="#products" class="button">View Products</a>
+  </section>
+
+  <section id="about">
+    <h1>About Us</h1>
+    <p style="max-width: 600px; margin: auto;">
+      Creative Tech is focused on building innovative tools for creators and developers alike.
+      From visual design to software production tools, we aim to empower your creativity.
+    </p>
+  </section>
+
+  <section id="products">
+    <h1>Our Products</h1>
+    <div class="products-container">
+      <div class="product-card">
+        <strong>Playback</strong>
+        <a href="https://github.com/spacecat031/playback" target="_blank">
+          GitHub Repo →
+        </a>
+      </div>
+      <div class="product-card">
+        <strong>Visual Illustrator</strong>
+        <p style="margin: 0.5rem 0 0; font-size: 1rem;">Coming Soon</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
